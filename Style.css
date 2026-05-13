@@ -4,3 +4,25 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar {
+  height: 60px;
+  background-color: rgb(19, 25, 33);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 113px;
+}
+
+.logo {
+  background-image: url("Images/Amazon\ Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 100%;
+}
