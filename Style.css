@@ -19,7 +19,7 @@
 }
 
 .logo {
-  background-image: url("Images/Amazon\ Logo.png");
+  background-image: url("amazon_icon-removebg-preview.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,10 +27,25 @@
   width: 100%;
 }
 
+.add-first {
+  color: #cccc;
+  font-size: 0.85rem;
+  margin-left: 25px;
+}
+
+.add-second {
+  font-size: 1rem;
+}
 .border {
   border: 1px solid transparent;
 }
 
 .border:hover {
   border: 1px solid white;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
