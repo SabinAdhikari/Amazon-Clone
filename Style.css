@@ -67,7 +67,7 @@
 .search-select {
   background-color: white;
   color: rgb(19, 25, 33);
-  width: 50px;
+  width: 100px;
   text-align: center;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -76,7 +76,7 @@
 
 .search-input {
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: none;
   padding: 10px;
 }
