@@ -30,12 +30,12 @@
 
 .add-first {
   color: #cccc;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   margin-left: 25px;
 }
 
 .add-second {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .border {
   border: 1px solid transparent;
@@ -55,13 +55,18 @@
   display: flex;
   justify-content: space-evenly;
   background-color: orange;
-  height: 40px;
-  width: 620px;
+  height: 38px;
+  width: 820px;
   border-radius: 5px;
 }
 
+.nav-search:hover {
+  border: 2px solid yellow;
+}
+
 .search-select {
-  background-color: #f3f3f3;
+  background-color: white;
+  color: rgb(19, 25, 33);
   width: 50px;
   text-align: center;
   border-top-left-radius: 5px;
@@ -91,10 +96,35 @@
 }
 
 span {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .nav-second {
   font-size: 0.85rem;
   font-weight: 700;
+}
+
+.nav-country {
+  display: flex;
+}
+
+.nav-country p {
+  margin-left: 5px;
+  margin-top: 8px;
+}
+select {
+  background-color: rgb(19, 25, 33);
+  color: white;
+  padding: 2px;
+  border: none;
+  font-size: 1rem;
+}
+
+.nav-cart {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav-cart i {
+  font-size: 20px;
 }
