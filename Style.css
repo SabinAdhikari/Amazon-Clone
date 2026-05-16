@@ -128,3 +128,40 @@ select {
 .nav-cart i {
   font-size: 20px;
 }
+
+/* Second Nav */
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-ops p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.panel-all i {
+  display: inline;
+}
+
+.panel-ops {
+  width: 77%;
+  font-size: 1rem;
+}
+
+.panel-deals {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.hero-section {
+  background-image: url("Images/hero-image.jpg");
+  background-size: cover;
+  height: 600px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
